@@ -37,7 +37,7 @@ describe('throwCustomError', () => {
     try {
       throwCustomError();
     } catch (error) {
-      expect(error instanceof MyAwesomeError);
+      expect(error).toBeInstanceOf(MyAwesomeError);
     }
   });
 });
@@ -47,7 +47,7 @@ describe('rejectCustomError', () => {
     try {
       await rejectCustomError();
     } catch (error) {
-      expect(error instanceof MyAwesomeError);
+      expect(error).toBeInstanceOf(MyAwesomeError);
     }
   });
 });

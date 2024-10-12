@@ -50,9 +50,7 @@ Write your tests in `src/01-simple-tests/index.test.ts`.
 
 Your task is to rewrite the tests written in the previous task using the table-driven testing approach, utilizing the appropriate Jest API.
 
-Write your tests in `src/02-table-tests/index.test.ts`.
-
----
+Write your tests in `src/02-table-tests/index.test.ts`.---
 
 
 ### **Error handling & async**
